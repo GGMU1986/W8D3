@@ -1,1 +1,24 @@
 /* PHASE 0: Sidebar */
+.content-sidebar {
+    position: relative;
+}
+
+.profile-picture {
+    display: block;
+    position: relative;
+    margin-top: -100px;
+}
+
+.profile-info h3 {
+    font-size: 25px;
+}
+
+.profile-nav ul li {
+    border-bottom: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+}
+
+.profile-nav ul li a {
+    font-weight: bolder;
+}
