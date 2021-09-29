@@ -7,18 +7,46 @@
     display: block;
     position: relative;
     margin-top: -100px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.online {
+    position: absolute;
+    color: blue;
+    background-color: lightsalmon;
+    top: -35px;
+    left: -20px;
+    padding: 5px 45px;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    box-shadow: 0 1px 0 0 rgb(255, 135, 135);
+    transform: rotate(-45deg) translateX(-25%);
+    text-transform: uppercase;
+    overflow: auto;
 }
 
 .profile-info h3 {
     font-size: 25px;
 }
 
+.profile-info p {
+    margin-bottom: 20px;
+}
+
+.profile-nav ul li:first-child {
+    border-top: 1px solid lightgray;
+}
+
 .profile-nav ul li {
-    border-bottom: 1px solid gray;
-    border-bottom: 1px solid gray;
-    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+    /* padding-top: 10px; */
 }
 
 .profile-nav ul li a {
+    display:inline-block;
     font-weight: bolder;
+    padding: 5px;
+    
 }
+
